@@ -13,7 +13,7 @@ mysql -uroot -e "CREATE DATABASE ASK"
 mysql -uroot -e "CREATE USER 'and1helicopter' IDENTIFIED BY 'and1helicopter'"
 mysql -uroot -e "GRANT ALL PRIVILEGES ON ASK.* TO 'and1helicopter'"
 
-
+python /home/box/web/ask/manage.py syncdb
 
 
 
